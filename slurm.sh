@@ -14,5 +14,5 @@
 module load openmpi/openmpi-1.10.2
 ## A bit redundant given my .bashrc
 module list
-./signal_generator "$@"
+mpirun ./signal_generator "$@"
 exit 0
